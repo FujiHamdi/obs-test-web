@@ -1,0 +1,22 @@
+
+.linear {
+  &-label {
+    margin-top: 50vh;
+    text-align: center;
+  }
+
+  &-root {
+    background-color: #fdf4c0;
+    border-radius: vw(50);
+    height: vw(5);
+    margin: 0 50vh;
+  }
+
+  &-bar1 {
+    background-color: orange;
+  }
+
+  &-bar2 {
+    @extend .linear-bar1;
+  }
+}
